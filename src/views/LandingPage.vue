@@ -10,15 +10,14 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
       <div class="text-center mb-16">
         <span
           class="inline-block px-3 py-1 text-sm font-semibold text-purple-600 dark:text-purple-400 bg-purple-100 dark:bg-purple-900/50 rounded-full mb-4">
-          NOSSA PLATAFORMA
+          PLATAFORMA SPARK
         </span>
         <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-          Tudo o que você precisa para
-          <span class="text-purple-600 dark:text-purple-400">dominar</span> a tecnologia
+          Transforme sua Aplicação com
+          <span class="text-purple-600 dark:text-purple-400">Inteligência Artificial</span>
         </h2>
         <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          Uma experiência completa com cursos, desafios, comunidade e suporte para acelerar sua
-          evolução.
+          O Spark é a plataforma ideal para quem deseja integrar Agentes de IA de forma simples e eficiente.
         </p>
       </div>
 
@@ -32,10 +31,9 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Conteúdo Avançado</h3>
+          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Crie seu Agente de IA</h3>
           <p class="text-gray-600 dark:text-gray-300">
-            Aprenda com as melhores tecnologias e metodologias do mercado, direto ao ponto e do
-            jeito certo.
+            Personalize o comportamento e as respostas de seu agente ou use nossos agentes já prontos.
           </p>
         </div>
 
@@ -48,10 +46,10 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Comunidade Ativa</h3>
+          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Integre com facilidade</h3>
           <p class="text-gray-600 dark:text-gray-300">
-            Tire dúvidas, compartilhe projetos e conecte-se com milhares de devs ambiciosos como
-            você.
+            Use endpoints prontos para conectar o agente ao seu sistema e use gerencie seus chats para as conversas
+            entre IA e usuário.
           </p>
         </div>
 
@@ -64,10 +62,9 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Certificado</h3>
+          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Acompanhe tudo pelo Dashboard</h3>
           <p class="text-gray-600 dark:text-gray-300">
-            Ao concluir os desafios, receba um certificado reconhecido no mercado para comprovar seu
-            conhecimento.
+            Veja o histórico de requisições e analise estatísticas para otimizar a performance da sua IA.
           </p>
         </div>
 
@@ -80,9 +77,10 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Projetos Práticos</h3>
+          <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Documentação</h3>
           <p class="text-gray-600 dark:text-gray-300">
-            Aprenda na prática construindo projetos reais que vão direto para seu portfólio.
+            Nossa API possui uma documentação clara e detalhada, facilitando a integração rápida e eficiente ao seu
+            sistema.
           </p>
         </div>
 
@@ -145,8 +143,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
             <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Ideal para indivíduos e pequenos projetos</p>
 
             <div class="mb-6">
-              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$29</span>
-              <span class="text-gray-500 dark:text-gray-400">/mês</span>
+              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$9,90</span>
             </div>
 
             <ul class="space-y-3 mb-8">
@@ -154,25 +151,19 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Até 3 projetos
+                Até 3 agentes
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Suporte por email
-              </li>
-              <li class="flex items-center text-gray-700 dark:text-gray-300">
-                <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                5GB de armazenamento
+                Suporte
               </li>
             </ul>
 
             <button
               class="w-full py-3 px-4 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg transition-colors">
-              Começar teste grátis
+              Escolher
             </button>
           </div>
         </div>
@@ -187,8 +178,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
             <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Perfeito para equipes pequenas e médias</p>
 
             <div class="mb-6">
-              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$79</span>
-              <span class="text-gray-500 dark:text-gray-400">/mês</span>
+              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$19,90</span>
             </div>
 
             <ul class="space-y-3 mb-8">
@@ -196,7 +186,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Projetos ilimitados
+                Até 10 agentes
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -208,19 +198,13 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                50GB de armazenamento
-              </li>
-              <li class="flex items-center text-gray-700 dark:text-gray-300">
-                <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                Relatórios avançados
+                Gráficos de consumo avançados
               </li>
             </ul>
 
             <button
               class="w-full py-3 px-4 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg transition-colors">
-              Começar teste grátis
+              Escolher
             </button>
           </div>
         </div>
@@ -232,8 +216,8 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
             <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Para grandes empresas e organizações</p>
 
             <div class="mb-6">
-              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$199</span>
-              <span class="text-gray-500 dark:text-gray-400">/mês</span>
+              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$39,99</span>
+              <span class="text-4xl font-bold text-white dark:text-white"> /mensal</span>
             </div>
 
             <ul class="space-y-3 mb-8">
@@ -241,38 +225,39 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Projetos ilimitados
+                Agentes ilimitados
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Suporte 24/7
+                Suporte 24 horas incluindo finais de semana e feriados
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Armazenamento ilimitado
+                Gráficos de consumo avançados
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Integrações personalizadas
+                Integrações personalizadas sob demanda
               </li>
             </ul>
 
             <button
               class="w-full py-3 px-4 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg transition-colors">
-              Fale com nossa equipe
+              Escolher
             </button>
           </div>
         </div>
       </div>
 
       <div class="text-center mt-12 text-gray-500 dark:text-gray-400 text-sm">
-        <p>Todos os planos incluem 14 dias de teste gratuito. Não é necessário cartão de crédito.</p>
+        <a href="#">Use os recursos gratuitos da Spark <span
+            class="font-bold text-purple-600 dark:text-purple-400">clicando aqui</span>.</a>
       </div>
     </div>
   </div>
@@ -280,7 +265,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
   <div class="py-16 bg-gray-50 dark:bg-gray-800">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-4">Por que escolher nosso produto?</h2>
+        <h2 class="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-4">Por que escolher o Spark?</h2>
         <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           Descubra como nossa solução pode transformar sua produtividade e resultados
         </p>
@@ -295,9 +280,9 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Performance excepcional</h3>
-          <p class="text-gray-600 dark:text-gray-300">Tecnologia otimizada que oferece velocidade e eficiência
-            incomparáveis para suas operações.</p>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Simplicidade e Eficiência</h3>
+          <p class="text-gray-600 dark:text-gray-300">Nossa plataforma foi criada para ser fácil de usar, com uma API
+            intuitiva e bem documentada.</p>
         </div>
 
         <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
@@ -309,9 +294,9 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Segurança de dados</h3>
-          <p class="text-gray-600 dark:text-gray-300">Proteção avançada com criptografia de ponta a ponta e backups
-            automáticos.</p>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Desempenho e Escalabilidade</h3>
+          <p class="text-gray-600 dark:text-gray-300">Projetado para crescer junto com o seu negócio, garantindo
+            velocidade e estabilidade.</p>
         </div>
 
         <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
@@ -322,9 +307,9 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Nuvem integrada</h3>
-          <p class="text-gray-600 dark:text-gray-300">Acesse seus projetos de qualquer lugar, em qualquer dispositivo,
-            com sincronização em tempo real.</p>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Planos Acessíveis</h3>
+          <p class="text-gray-600 dark:text-gray-300">Oferecemos preços justos para que qualquer projeto, grande ou
+            pequeno, possa aproveitar o Spark.</p>
         </div>
 
         <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
@@ -336,28 +321,28 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
               </path>
             </svg>
           </div>
-          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Suporte 24/7</h3>
-          <p class="text-gray-600 dark:text-gray-300">Nossa equipe está disponível a qualquer momento para resolver suas
-            dúvidas e problemas.</p>
+          <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Suporte Dedicado</h3>
+          <p class="text-gray-600 dark:text-gray-300">Nossa equipe está pronta para te ajudar em qualquer dúvida ou
+            desafio.</p>
         </div>
       </div>
 
       <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div class="p-6">
-          <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">+10K</div>
-          <div class="text-gray-600 dark:text-gray-300">Clientes satisfeitos</div>
+          <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">12K</div>
+          <div class="text-gray-600 dark:text-gray-300">Requisições processadas</div>
         </div>
         <div class="p-6">
           <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">99.9%</div>
           <div class="text-gray-600 dark:text-gray-300">Disponibilidade</div>
         </div>
         <div class="p-6">
-          <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">24/7</div>
-          <div class="text-gray-600 dark:text-gray-300">Suporte ativo</div>
+          <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">1s</div>
+          <div class="text-gray-600 dark:text-gray-300">Tempo médio de resposta</div>
         </div>
         <div class="p-6">
-          <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">+50</div>
-          <div class="text-gray-600 dark:text-gray-300">Integrações</div>
+          <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">∞</div>
+          <div class="text-gray-600 dark:text-gray-300">Escalabilidade sem limites</div>
         </div>
       </div>
 
@@ -397,8 +382,8 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 </div>
               </div>
             </div>
-            <p class="text-gray-600 dark:text-gray-300 italic">"Transformou completamente nossa produtividade. A equipe
-              não consegue mais trabalhar sem essa ferramenta!"</p>
+            <p class="text-gray-600 dark:text-gray-300 italic">"A Spark revolucionou meu fluxo de trabalho! A API é
+              simples de integrar e extremamente eficiente. Agora, minhas automações rodam sem complicações!"</p>
           </div>
 
           <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md">
@@ -432,8 +417,8 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 </div>
               </div>
             </div>
-            <p class="text-gray-600 dark:text-gray-300 italic">"O suporte é excepcional e a plataforma superou todas
-              nossas expectativas. Vale cada centavo investido."</p>
+            <p class="text-gray-600 dark:text-gray-300 italic">"Nunca vi um suporte tão rápido e eficaz! Sempre que
+              precisei, a equipe da Spark esteve pronta para ajudar. Recomendo de olhos fechados!"</p>
           </div>
 
           <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md">
@@ -467,8 +452,8 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 </div>
               </div>
             </div>
-            <p class="text-gray-600 dark:text-gray-300 italic">"Migramos toda nossa equipe e o retorno foi imediato. A
-              curva de aprendizado é mínima e os resultados máximos."</p>
+            <p class="text-gray-600 dark:text-gray-300 italic">"A performance e estabilidade da Spark são incríveis! Meu
+              projeto ganhou velocidade e confiabilidade, sem dor de cabeça."</p>
           </div>
         </div>
       </div>
@@ -495,7 +480,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
         <div class="text-center mt-8">
           <a href="/signup"
             class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 transition-colors duration-300">
-            Comece seu teste gratuito
+            Comece sua integração com Spark
             <svg class="ml-3 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>
