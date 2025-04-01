@@ -25,7 +25,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              Back to dashboard
+              Voltar
             </router-link>
           </div>
           <!-- Form -->
@@ -34,14 +34,14 @@
               <h1
                 class="mb-2 font-semibold text-gray-800 text-title-sm dark:text-white/90 sm:text-title-md"
               >
-                Sign Up
+                Cadastrar
               </h1>
               <p class="text-sm text-gray-500 dark:text-gray-400">
-                Enter your email and password to sign up!
+                Crie sua conta spark em segundos!
               </p>
             </div>
             <div>
-              <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5">
+              <!-- <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5">
                 <button
                   class="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10"
                 >
@@ -89,8 +89,8 @@
 
                   Sign up with X
                 </button>
-              </div>
-              <div class="relative py-3 sm:py-5">
+              </div> -->
+              <!-- <div class="relative py-3 sm:py-5">
                 <div class="absolute inset-0 flex items-center">
                   <div class="w-full border-t border-gray-200 dark:border-gray-800"></div>
                 </div>
@@ -99,29 +99,29 @@
                     >Or</span
                   >
                 </div>
-              </div>
+              </div> -->
               <form @submit.prevent="handleSubmit">
                 <div class="space-y-5">
-                  <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                  <div class="grid grid-cols-1 gap-5 sm:grid-cols-1">
                     <!-- First Name -->
                     <div class="sm:col-span-1">
                       <label
                         for="fname"
                         class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
                       >
-                        First Name<span class="text-error-500">*</span>
+                        Nome completo<span class="text-error-500">*</span>
                       </label>
                       <input
                         v-model="firstName"
                         type="text"
                         id="fname"
                         name="fname"
-                        placeholder="Enter your first name"
+                        placeholder="Digite seu nome completo"
                         class="dark:bg-dark-900 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800"
                       />
                     </div>
                     <!-- Last Name -->
-                    <div class="sm:col-span-1">
+                    <!-- <div class="sm:col-span-1">
                       <label
                         for="lname"
                         class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
@@ -136,7 +136,7 @@
                         placeholder="Enter your last name"
                         class="dark:bg-dark-900 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800"
                       />
-                    </div>
+                    </div> -->
                   </div>
                   <!-- Email -->
                   <div>
@@ -144,14 +144,14 @@
                       for="email"
                       class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
                     >
-                      Email<span class="text-error-500">*</span>
+                      Seu melhor e-mail<span class="text-error-500">*</span>
                     </label>
                     <input
                       v-model="email"
                       type="email"
                       id="email"
                       name="email"
-                      placeholder="Enter your email"
+                      placeholder="Digite seu e-mail"
                       class="dark:bg-dark-900 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800"
                     />
                   </div>
@@ -161,14 +161,14 @@
                       for="password"
                       class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
                     >
-                      Password<span class="text-error-500">*</span>
+                      Senha<span class="text-error-500">*</span>
                     </label>
                     <div class="relative">
                       <input
                         v-model="password"
                         :type="showPassword ? 'text' : 'password'"
                         id="password"
-                        placeholder="Enter your password"
+                        placeholder="Digite sua senha"
                         class="dark:bg-dark-900 h-11 w-full rounded-lg border border-gray-300 bg-transparent py-2.5 pl-4 pr-11 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800"
                       />
                       <span
@@ -252,12 +252,10 @@
                           </div>
                         </div>
                         <p class="inline-block font-normal text-gray-500 dark:text-gray-400">
-                          By creating an account means you agree to the
+                          Eu concordo com os
                           <span class="text-gray-800 dark:text-white/90">
-                            Terms and Conditions,
+                            termos e condições
                           </span>
-                          and our
-                          <span class="text-gray-800 dark:text-white"> Privacy Policy </span>
                         </p>
                       </label>
                     </div>
@@ -268,7 +266,7 @@
                       type="submit"
                       class="flex items-center justify-center w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600"
                     >
-                      Sign Up
+                      Cadastrar
                     </button>
                   </div>
                 </div>
@@ -277,11 +275,11 @@
                 <p
                   class="text-sm font-normal text-center text-gray-700 dark:text-gray-400 sm:text-start"
                 >
-                  Already have an account?
+                  Já tem uma conta?
                   <router-link
                     to="/signin"
                     class="text-brand-500 hover:text-brand-600 dark:text-brand-400"
-                    >Sign In</router-link
+                    >Entre</router-link
                   >
                 </p>
               </div>
@@ -298,7 +296,7 @@
                 <img width="{231}" height="{48}" src="" alt="Logo" />
               </router-link>
               <p class="text-center text-gray-400 dark:text-white/60">
-                Free and Open-Source Tailwind CSS Admin Dashboard Template
+                O Spark é a plataforma ideal para quem deseja integrar Agentes de IA de forma simples e eficiente.
               </p>
             </div>
           </div>

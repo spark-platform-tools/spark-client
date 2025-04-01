@@ -10,22 +10,22 @@
               <path d="M12.7083 5L7.5 10.2083L12.7083 15.4167" stroke="" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
             </svg>
-            Back to dashboard
+            Voltar
           </router-link>
         </div>
         <div class="flex flex-col justify-center flex-1 w-full max-w-md mx-auto">
           <div>
             <div class="mb-5 sm:mb-8">
               <h1 class="mb-2 font-semibold text-gray-800 text-title-sm dark:text-white/90 sm:text-title-md">
-                Sign In
+                Login
               </h1>
               <p class="text-sm text-gray-500 dark:text-gray-400">
-                Enter your email and password to sign in!
+                Entre com sua na Spark!
               </p>
             </div>
             <div>
-              <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5">
-                <button
+              <!-- <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5"> -->
+                <!-- <button
                   class="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -42,8 +42,8 @@
                       fill="#EB4335" />
                   </svg>
                   Sign in with Google
-                </button>
-                <button
+                </button> -->
+                <!-- <button
                   class="inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg px-7 hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10">
                   <svg width="21" class="fill-current" height="20" viewBox="0 0 21 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -52,22 +52,22 @@
                   </svg>
 
                   Sign in with X
-                </button>
-              </div>
-              <div class="relative py-3 sm:py-5">
+                </button> -->
+              <!-- </div> -->
+              <!-- <div class="relative py-3 sm:py-5">
                 <div class="absolute inset-0 flex items-center">
                   <div class="w-full border-t border-gray-200 dark:border-gray-800"></div>
                 </div>
                 <div class="relative flex justify-center text-sm">
                   <span class="p-2 text-gray-400 bg-white dark:bg-gray-900 sm:px-5 sm:py-2">Or</span>
                 </div>
-              </div>
+              </div> -->
               <form @submit.prevent="handleSubmit">
                 <div class="space-y-5">
                   <!-- Email -->
                   <div>
                     <label for="email" class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
-                      Email<span class="text-error-500">*</span>
+                      E-mail<span class="text-error-500">*</span>
                     </label>
                     <input v-model="email" type="email" id="email" name="email" placeholder="info@gmail.com"
                       class="dark:bg-dark-900 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-gray-700 dark:bg-gray-900 dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800" />
@@ -75,7 +75,7 @@
                   <!-- Password -->
                   <div>
                     <label for="password" class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400">
-                      Password<span class="text-error-500">*</span>
+                      Senha<span class="text-error-500">*</span>
                     </label>
                     <div class="relative">
                       <input v-model="password" :type="showPassword ? 'text' : 'password'" id="password"
@@ -118,27 +118,26 @@
                             </span>
                           </div>
                         </div>
-                        Keep me logged in
+                        Lembre-se de mim
                       </label>
                     </div>
                     <router-link to="/reset-password"
-                      class="text-sm text-brand-500 hover:text-brand-600 dark:text-brand-400">Forgot
-                      password?</router-link>
+                      class="text-sm text-brand-500 hover:text-brand-600 dark:text-brand-400">Esqueceu a senha?</router-link>
                   </div>
                   <!-- Button -->
                   <div>
                     <button type="submit"
                       class="flex items-center justify-center w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600">
-                      Sign In
+                      Entrar
                     </button>
                   </div>
                 </div>
               </form>
               <div class="mt-5">
                 <p class="text-sm font-normal text-center text-gray-700 dark:text-gray-400 sm:text-start">
-                  Don't have an account?
-                  <router-link to="/signup" class="text-brand-500 hover:text-brand-600 dark:text-brand-400">Sign
-                    Up</router-link>
+                  Ainda não tem uma conta?
+                  <router-link to="/signup" class="text-brand-500 hover:text-brand-600 dark:text-brand-400">Cadastre-se
+                  </router-link>
                 </p>
               </div>
             </div>
@@ -153,7 +152,7 @@
               <img width="{231}" height="{48}" src="" alt="Logo" />
             </router-link>
             <p class="text-center text-gray-400 dark:text-white/60">
-              Free and Open-Source Tailwind CSS Admin Dashboard Template
+              O Spark é a plataforma ideal para quem deseja integrar Agentes de IA de forma simples e eficiente.
             </p>
           </div>
         </div>
