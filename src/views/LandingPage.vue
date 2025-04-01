@@ -135,7 +135,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div
           class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-purple-100 dark:border-purple-900/50 transition-all hover:shadow-purple-200 dark:hover:shadow-purple-900/30">
           <div class="p-6">
@@ -143,7 +143,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
             <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Ideal para indivíduos e pequenos projetos</p>
 
             <div class="mb-6">
-              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$9,90</span>
+              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">GRATUITO</span>
             </div>
 
             <ul class="space-y-3 mb-8">
@@ -151,13 +151,13 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Até 3 agentes
+                Até 3 agentes de IA
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Suporte
+                Painel de consumo simples
               </li>
             </ul>
 
@@ -175,10 +175,10 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
           </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Profissional</h3>
-            <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Perfeito para equipes pequenas e médias</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Perfeito para uso completo da ferramento com recursos a mais</p>
 
             <div class="mb-6">
-              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$19,90</span>
+              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$9,99</span>
             </div>
 
             <ul class="space-y-3 mb-8">
@@ -186,7 +186,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
-                Até 10 agentes
+                Agentes de IA ilimitados
               </li>
               <li class="flex items-center text-gray-700 dark:text-gray-300">
                 <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -199,51 +199,6 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 Gráficos de consumo avançados
-              </li>
-            </ul>
-
-            <button
-              class="w-full py-3 px-4 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg transition-colors">
-              Escolher
-            </button>
-          </div>
-        </div>
-
-        <div
-          class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-purple-100 dark:border-purple-900/50 transition-all hover:shadow-purple-200 dark:hover:shadow-purple-900/30">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Empresarial</h3>
-            <p class="text-gray-600 dark:text-gray-300 text-sm mb-6">Para grandes empresas e organizações</p>
-
-            <div class="mb-6">
-              <span class="text-4xl font-bold text-purple-600 dark:text-purple-400">R$39,99</span>
-              <span class="text-4xl font-bold text-white dark:text-white"> /mensal</span>
-            </div>
-
-            <ul class="space-y-3 mb-8">
-              <li class="flex items-center text-gray-700 dark:text-gray-300">
-                <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                Agentes ilimitados
-              </li>
-              <li class="flex items-center text-gray-700 dark:text-gray-300">
-                <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                Suporte 24 horas incluindo finais de semana e feriados
-              </li>
-              <li class="flex items-center text-gray-700 dark:text-gray-300">
-                <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                Gráficos de consumo avançados
-              </li>
-              <li class="flex items-center text-gray-700 dark:text-gray-300">
-                <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                Integrações personalizadas sob demanda
               </li>
             </ul>
 
