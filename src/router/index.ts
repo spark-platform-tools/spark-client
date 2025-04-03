@@ -38,6 +38,14 @@ const router = createRouter({
         title: 'Documentation',
       },
     },
+    {
+      path: '/price',
+      name: 'Price',
+      component: () => import('../views/PricePage.vue'),
+      meta: {
+        title: 'Price',
+      },
+    },
   ],
 })
 
