@@ -5,6 +5,13 @@
       <div class="flex items-center justify-between px-4 py-3">
         <!-- Logo + Platform Name -->
         <div class="flex items-center">
+          <div class="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mr-3">
+            <svg class="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
+              </path>
+            </svg>
+          </div>
           <span class="ml-2 text-lg font-semibold text-gray-800 dark:text-white">Spark</span>
         </div>
 
@@ -31,6 +38,14 @@
           <!-- Menu Header -->
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center">
+              <div
+                class="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mr-3">
+                <svg class="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
+                  </path>
+                </svg>
+              </div>
               <span class="ml-2 text-lg font-semibold text-gray-800 dark:text-white">Spark</span>
             </div>
             <button @click="toggleMenu" class="p-1 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
@@ -46,7 +61,7 @@
               class="block px-3 py-2 text-sm font-medium rounded-lg text-purple-600 dark:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/30">Início</a>
             <a href="#"
               class="block px-3 py-2 text-sm font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/30">Preço</a>
-            <a href="#"
+            <a href="/documentation"
               class="block px-3 py-2 text-sm font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/30">Documentação</a>
             <a href="#"
               class="block px-3 py-2 text-sm font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/30">Sobre</a>
@@ -72,6 +87,12 @@
     <!-- Desktop Header -->
     <div class="hidden lg:flex items-center justify-between px-6 py-3">
       <div class="flex items-center">
+        <div class="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mr-3">
+          <svg class="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+        </div>
         <span class="ml-2 text-lg font-semibold text-gray-800 dark:text-white">Spark</span>
       </div>
       <div class="flex items-center space-x-4">
@@ -80,7 +101,7 @@
             class="text-sm font-medium text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300">Início</a>
           <a href="#"
             class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">Preços</a>
-          <a href="#"
+          <a href="/documentation"
             class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">Documentação</a>
           <a href="#"
             class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">Sobre</a>
@@ -93,9 +114,10 @@
       </div>
     </div>
   </header>
+  <FooterLayout />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 import ThemeToggler from '../common/ThemeToggler.vue'
 

@@ -30,6 +30,14 @@ const router = createRouter({
         title: 'Signup',
       },
     },
+    {
+      path: '/documentation',
+      name: 'Documentation',
+      component: () => import('../views/Docs/DocPage.vue'),
+      meta: {
+        title: 'Documentation',
+      },
+    },
   ],
 })
 
