@@ -46,6 +46,15 @@ const router = createRouter({
         title: 'Price',
       },
     },
+    
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: () => import('../views/NotFoundPage.vue'),
+      meta: {
+        title: 'Página não encontrada'
+      }
+    }
   ],
 })
 

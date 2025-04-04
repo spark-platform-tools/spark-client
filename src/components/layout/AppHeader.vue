@@ -63,8 +63,6 @@
               class="block px-3 py-2 text-sm font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/30">Preços</a>
             <a href="/documentation"
               class="block px-3 py-2 text-sm font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/30">Documentação</a>
-            <a href="#"
-              class="block px-3 py-2 text-sm font-medium rounded-lg text-gray-700 dark:text-gray-300 hover:bg-purple-50 dark:hover:bg-purple-900/30">Sobre</a>
           </nav>
 
           <!-- Menu Footer -->
@@ -106,8 +104,6 @@
             class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">Preços</a>
           <a href="/documentation"
             class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">Documentação</a>
-          <a href="#"
-            class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400">Sobre</a>
         </nav>
         <ThemeToggler />
         <a href="/signin"

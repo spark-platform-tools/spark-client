@@ -5,7 +5,7 @@ import FooterLayout from '../components/layout/FooterLayout.vue'
 
 <template>
     <AppHeader />
-    <div class="w-full bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 min-h-screen">
+    <div class="w-full bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 min-h-screen -mb-10">
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">
